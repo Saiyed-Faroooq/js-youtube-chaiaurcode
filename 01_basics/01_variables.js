@@ -11,3 +11,6 @@ nameID = "123555";
 usercity = "Rajkot";
 
 /* now to print the output in terminal use consol.log(" "). But to print all the variable at a time use console.table([]) and write the variables seperating it with a comma.*/
+
+console.log(accountId);
+console.table([accountId, username, nameID, usercity, userstate]);
